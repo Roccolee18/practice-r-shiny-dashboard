@@ -4,8 +4,6 @@ library(dplyr)
 library(plotly)
 library(ggridges)
 library(ggplot2)
-install.packages("rsconnect")
-rsconnect::writeManifest()
 
 # Load data
 data <- read.csv(
