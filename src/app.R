@@ -2,17 +2,16 @@ library(shiny)
 library(bslib)
 library(dplyr)
 library(plotly)
-library(ggridges)
 library(ggplot2)
-install.packages("rsconnect")
-
-setwd("C:/Users/rocco/OneDrive/Documents/GitHub/practice-r-shiny-dashboard/src")
-rsconnect::writeManifest(appDir = ".", appPrimaryDoc = "app.R")
+# install.packages("rsconnect")
+# 
+# setwd("C:/Users/rocco/OneDrive/Documents/GitHub/practice-r-shiny-dashboard/src")
+# rsconnect::writeManifest(appDir = ".", appPrimaryDoc = "app.R")
 
 
 # Load data
 data <- read.csv(
-  "data/supply_chain_data.csv",
+  "../data/supply_chain_data.csv",
   check.names = FALSE
 )
 
