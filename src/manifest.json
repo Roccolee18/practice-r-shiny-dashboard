@@ -2576,17 +2576,8 @@
     }
   },
   "files": {
-    "data/supply_chain_data.csv": {
-      "checksum": "436adf12de207dac951ea1255488d474"
-    },
-    "LICENSE": {
-      "checksum": "f07fcb079a24808df117b036a900d2d9"
-    },
-    "README.md": {
-      "checksum": "edbd868a7f61ab3056beff878c476154"
-    },
-    "src/app.R": {
-      "checksum": "a5b7a57cd7dc2b04609caa3f90e4a376"
+    "app.R": {
+      "checksum": "65497911e06abce76582057d036f7b3b"
     }
   },
   "users": null
