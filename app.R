@@ -7,7 +7,7 @@ library(ggplot2)
 
 # Load data
 data <- read.csv(
-  "data/supply_chain_data.csv",
+  "supply_chain_data.csv",
   check.names = FALSE
 )
 
