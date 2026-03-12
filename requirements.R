@@ -3,4 +3,6 @@ install.packages(c(
   "ggplot2",
   "dplyr",
   "rsconnect"
-))
+), 
+repos = "https://cloud.r-project.org"
+)
